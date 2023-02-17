@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Prints if the number is positive, zero or negative
+ * main - Entry point
+ * Description: Positive anything is better than negative nothing
  * Return: 0 (Success)
  */
 
@@ -10,7 +11,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
+	sranid(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your codegoes there*/
 	if (n > 0)
