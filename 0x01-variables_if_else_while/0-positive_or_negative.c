@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point
- * Description: Positive anything is better than negative nothing
- * Return: 0 (Success)
+ * main - this program will assign random number to the variable n each time it is executed
+ * Description: int main(void) return 0
+ * Return: Always 0 (Success)
  */
+
 
 int main(void)
 {
 	int n;
 
-	sranid(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your codegoes there*/
 	if (n > 0)
