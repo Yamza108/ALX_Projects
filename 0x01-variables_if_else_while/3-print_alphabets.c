@@ -19,7 +19,7 @@ int main(void)
 			c++;
 		}
 	while
-		(c <= 'z') {
+		(d <= 'z') {
 			putchar(d);
 			d++;
 		}
