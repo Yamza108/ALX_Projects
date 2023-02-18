@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - this program will assign random number to the variable n
+/**
+ * main - Entry point
  * Description: int main(void) return 0
  * Return: Always 0 (Success)
  */
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your codegoes there*/
+	/* your code goes there*/
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
