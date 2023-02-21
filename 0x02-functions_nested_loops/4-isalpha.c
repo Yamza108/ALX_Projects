@@ -3,7 +3,7 @@
 
 /**
  *_isalpha  - Checks for alphabetic character
- *@C: The cahracter to be checked
+ *@c: The cahracter to be checked
  * Return: 1 for alphabetic character or 0 for anything else
  */
 
