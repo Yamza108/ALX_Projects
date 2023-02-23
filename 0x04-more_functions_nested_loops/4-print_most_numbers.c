@@ -1,4 +1,6 @@
 #include "main.h"
+#include <unistd.h>
+#include <stdio.h>
 
 
 /**
@@ -20,8 +22,8 @@ void print_most_numbers(void)
 	}
 	else
 	{
-	_putchar(x + '0');
+	putchar(x + '0');
 	}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
