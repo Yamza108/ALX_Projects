@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * positive_or_negative - checks if given number is +, - or 0
