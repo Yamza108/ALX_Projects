@@ -1,21 +1,21 @@
 #include "main.h"
-
-
 /**
- * reserve_array - Reserve the content of an array of integers
- * @a: an array of integers to be reversed.
- * @n: the number of elements in the array
+ *reverse_array - revereses an array.
+ *@a: pointer to array.
+ *@n: number of elements of an array.
  *
+ *Return: void.
  */
-
-void reserve_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int tmp, index;
+	int temp, counter;
 
-	for (index = n - 1; index >= n / 2; index--)
+	n = n - 1;
+	counter = 0;
+	while (counter <= n)
 	{
-	tmp = a[n - 1 - index];
-	a[n - 1 - index] = a[index];
-	a[index] = tmp;
+		temp = a[counter];
+		a[counter++] = a[n];
+		a[n--] = temp;
 	}
 }
