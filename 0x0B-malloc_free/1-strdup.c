@@ -9,7 +9,7 @@
  * Return: String duplicate
  */
 
-cahr *_strdup(char *str)
+char *_strdup(char *str)
 {
 	int a = 0, i = 1;
 	char *s;
@@ -22,7 +22,7 @@ cahr *_strdup(char *str)
 	i++;
 }
 
-	s = malloc((sizeof(char) * i) + 1;
+	s = malloc((sizeof(char) * i) + 1);
 
 	if (s == NULL)
 	return (NULL);
