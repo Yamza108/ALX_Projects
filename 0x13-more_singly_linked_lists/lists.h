@@ -2,6 +2,14 @@
 #define LISTS_H
 #include <stdlib.h>
 
+
+/**
+ * struct listint_s - Single linked list
+ * @n: integr
+ * @next: next point to the node
+ * description: Single link list
+ */
+
 typedef struct listint_s
 {
 	int n;
